@@ -10,6 +10,7 @@ jewish_ideas = {
 	
 	trigger = {
 		tag = ISR
+		religion_group = jewish_group
 	}
 	free = yes
 	

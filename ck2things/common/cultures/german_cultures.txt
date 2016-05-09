@@ -1,0 +1,22 @@
+germanic = {
+	german = {
+		primary = GER
+		dynasty_names = { "von Thüringen" "Welf" "Udonen" "Etichonen" "Ludolfinger" "Hunfriding" "Babenberger" "Unruochinger" "Geroldonen" "Sieghardinger" "Agilolfing" "Berthilding" "Hardrading" "Anniona" "Fagana" "Hahilinga" "Huosi" "Trozza" "von Calw" "von Altdorf" "von Glurns" "von Zollern" "von Asperg" "von Henneberg" "von Andechs" "von Waging" }
+	}
+	frankish = {
+		primary = FRA
+		dynasty_names = { "Chatenois" "Capet" "de Chaumontois" "Rorgonides" }
+	}
+	suebi = {
+		primary = POR
+		dynasty_names = { }
+	}
+	old_saxon = {
+		primary = GER
+		dynasty_names = { "Theodericing" "Richfriding" "Abonid" "Smeldiging" "Unwanid" "Hessing" }
+	}
+	frisian = {
+		primary = NED
+		dynasty_names = { "Folcwalding" }
+	}
+}

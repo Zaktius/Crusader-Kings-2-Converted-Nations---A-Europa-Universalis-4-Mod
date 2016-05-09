@@ -1,0 +1,14 @@
+east_slavic = {
+	ilmenian = {
+		primary = NOV
+		dynasty_names = { "Kryvich" "Slovensky" }
+	}
+	volhynian = {
+		primary = KIE
+		dynasty_names = { "Tyvercy" "Turov" }
+	}
+	severian = {
+		primary = KIE
+		dynasty_names = { "Radimich" "Seversky" }
+	}
+}

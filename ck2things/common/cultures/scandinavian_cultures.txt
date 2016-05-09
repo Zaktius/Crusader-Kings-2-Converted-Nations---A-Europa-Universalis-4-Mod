@@ -1,0 +1,6 @@
+scandinavian = {
+	norse = {
+		primary = DAN
+		dynasty_names = { "Yngling" "af Munsö" "Ulfing" "Gautske" "Gute" "Hede" "Hrafn" "Refr" "Stafr" "Skjöldung" "av Island" "Drake" "av Hafrsfjord" "Ytra" "av Askø" "Koss" "av Røra" "av Nordland" "Hylling" "Alfr" "Herja" "Vansö" "Flod" "af Vendel" "av Alfheim" "af Åland" }
+	}
+}

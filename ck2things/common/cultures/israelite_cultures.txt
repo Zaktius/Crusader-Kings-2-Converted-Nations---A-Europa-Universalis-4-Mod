@@ -3,7 +3,6 @@ israelite = {
 		primary = ISR
 		dynasty_names = { }
 	}
-	
 	sephardi = {
 		primary = ISR
 		dynasty_names = { }

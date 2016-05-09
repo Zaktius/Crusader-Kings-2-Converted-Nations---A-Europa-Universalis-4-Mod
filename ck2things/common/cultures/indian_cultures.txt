@@ -1,0 +1,10 @@
+iranian = {
+	kurdish = {
+		primary = PER
+		dynasty_names = { "Justanid" "Bebadid" "Oromid" "Kirkukbid" "Murrid" "Pavehid" "Ziaid" "Efšerid" "Assadid" }
+	}
+	baloch = {
+		primary = PER
+		dynasty_names = { "Qalat" "Jiskani" "Kalmati" "Mugheri" "Nutkani" }
+	}
+}

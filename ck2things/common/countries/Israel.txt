@@ -1,4 +1,5 @@
-﻿# Israel
+﻿#Israel
+
 graphical_culture = muslimgfx
 color = { 20 138 255 }
 
