@@ -3,8 +3,4 @@ latin = {
 		primary = ITA
 		dynasty_names = { "Orsini" "di Capua" "Zerkis" "Oristani" "Galbaio" "di Pitigliano" "di Tusculum" "di Tivoli" "di Pallestrina" }
 	}
-	roman = {
-		primary = ITA
-		dynasty_names = { }
-	}
 }
