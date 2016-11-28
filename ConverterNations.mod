@@ -1,8 +1,8 @@
-name = "Formable Converter Nations"
-path = "mod/ConverterNations"
-supported_version = "1.19"
-tags = {
+name="Formable Converter Nations"
+path="mod/ConverterNations"
+tags={
 	"missions and decisions"
 	"national ideas"
 }
-picture = "logo.png"
+picture="logo.png"
+supported_version="1.19.*.*"
