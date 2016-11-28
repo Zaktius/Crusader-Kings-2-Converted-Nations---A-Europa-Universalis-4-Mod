@@ -1,6 +1,6 @@
 country_decisions = {
 
-	bejoms = {
+	form_israel = {
 		major = yes
 		potential = {
 			is_colonial_nation = no
@@ -11,25 +11,34 @@ country_decisions = {
 					ai = no
 				}
 			}
-			religion = norse_pagan_reformed
+			religion_group = jewish_group
 			OR = {
 				ai = no
-				NOT = { exists = JOM }
+				AND = {
+					NOT = { exists = ISR }
+					any_owned_province = {
+						region = mashriq_region
+					}
+				}
 			}
 		}
 		allow = {
-			NOT = { exists = JOM }
+			NOT = { exists = ISR }
 			is_nomad = no
 			is_subject = no
 			is_at_war = no
-			owns_core_province = 2996			# Wismar
-			owns_core_province = 46				# Rostock
-			owns_core_province = 47				# Stralsund
-			owns_core_province = 2994			# Greifswald
-			owns_core_province = 1858			# Stettin
+			is_tribal = no
+			owns_core_province = 379			# Jerusalem
+			owns_core_province = 364			# Gaza
+			owns_core_province = 380			# Kerak
+			owns_core_province = 381			# Ajlun
+			owns_core_province = 1854			# Nablus
+			379 = {
+				religion_group = jewish_group
+			}
 		}
 		effect = {
-			change_tag = JOM
+			change_tag = ISR
 			if = {
 				limit = {
 					is_part_of_hre = yes
@@ -48,26 +57,22 @@ country_decisions = {
 				name = centralization_modifier
 				duration = 3650
 			}
-			set_capital = 1858			# Stettin
+			set_capital = 379 # Jerusalem
 			if = {
 				limit = {
-					NOT = { primary_culture = norse }
+					NOT = { primary_culture = hebrew }
 				}
-				change_primary_culture = norse
+				change_primary_culture = hebrew
 			}
-			scandinavia_region = {
+			palestine_area = {
+				add_permanent_claim = ISR
+			}
+			syria_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = JOM
+				add_permanent_claim = ISR
 			}
-			north_german_region = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = JOM
-			}
-			change_government = monastic_order_government
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas

@@ -1,6 +1,6 @@
 country_decisions = {
 
-	bekt = {
+	form_jomsvikings = {
 		major = yes
 		potential = {
 			is_colonial_nation = no
@@ -11,27 +11,25 @@ country_decisions = {
 					ai = no
 				}
 			}
-			religion_group = christian_group
+			religion = norse_pagan_reformed
 			OR = {
 				ai = no
-				AND = {
-					NOT = { exists = TEM }
-					any_owned_province = {
-						region = mashriq_region
-					}
-				}
+				NOT = { exists = JOM }
 			}
 		}
 		allow = {
-			NOT = { exists = TEM }
+			NOT = { exists = JOM }
 			is_nomad = no
 			is_subject = no
 			is_at_war = no
-			is_tribal = no
-			owns_core_province = 379			# Jerusalem
+			owns_core_province = 2996			# Wismar
+			owns_core_province = 46				# Rostock
+			owns_core_province = 47				# Stralsund
+			owns_core_province = 2994			# Greifswald
+			owns_core_province = 1858			# Stettin
 		}
 		effect = {
-			change_tag = TEM
+			change_tag = JOM
 			if = {
 				limit = {
 					is_part_of_hre = yes
@@ -50,27 +48,30 @@ country_decisions = {
 				name = centralization_modifier
 				duration = 3650
 			}
-			set_capital = 379 # Jerusalem
+			set_capital = 1858			# Stettin
 			if = {
 				limit = {
-					NOT = { primary_culture = hebrew }
+					NOT = { primary_culture = norse }
 				}
-				change_primary_culture = hebrew
+				change_primary_culture = norse
 			}
-			palestine_area = {
-				add_permanent_claim = TEM
-			}
-			syria_area = {
+			scandinavia_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = TEM
+				add_permanent_claim = JOM
 			}
+			north_german_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = JOM
+			}
+			change_government = monastic_order_government
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
-			change_government = monastic_order_government
 		}
 		ai_will_do = {
 			factor = 400

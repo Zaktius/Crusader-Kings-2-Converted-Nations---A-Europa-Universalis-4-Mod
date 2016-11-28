@@ -1,6 +1,6 @@
 country_decisions = {
 
-	beisr = {
+	form_hashashins = {
 		major = yes
 		potential = {
 			is_colonial_nation = no
@@ -11,34 +11,29 @@ country_decisions = {
 					ai = no
 				}
 			}
-			religion_group = jewish_group
+			religion_group = muslim
 			OR = {
 				ai = no
 				AND = {
-					NOT = { exists = ISR }
+					NOT = { exists = HAH }
 					any_owned_province = {
-						region = mashriq_region
+						region = persia_region
 					}
 				}
 			}
 		}
 		allow = {
-			NOT = { exists = ISR }
+			NOT = { exists = HAH }
 			is_nomad = no
 			is_subject = no
 			is_at_war = no
 			is_tribal = no
-			owns_core_province = 379			# Jerusalem
-			owns_core_province = 364			# Gaza
-			owns_core_province = 380			# Kerak
-			owns_core_province = 381			# Ajlun
-			owns_core_province = 1854			# Nablus
-			379 = {
-				religion_group = jewish_group
-			}
+			owns_core_province = 2215			# Qazvin
+			owns_core_province = 417			# Gilan
+			owns_core_province = 426			# Mazandaran
 		}
 		effect = {
-			change_tag = ISR
+			change_tag = HAH
 			if = {
 				limit = {
 					is_part_of_hre = yes
@@ -52,31 +47,42 @@ country_decisions = {
 					set_in_empire = no
 				}
 			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
 			add_prestige = 25
 			add_country_modifier = {
 				name = centralization_modifier
 				duration = 3650
 			}
-			set_capital = 379 # Jerusalem
-			if = {
-				limit = {
-					NOT = { primary_culture = hebrew }
-				}
-				change_primary_culture = hebrew
-			}
-			palestine_area = {
-				add_permanent_claim = ISR
-			}
-			syria_area = {
+			set_capital = 2215 # Jerusalem
+
+			azerbaijan_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = ISR
+				add_permanent_claim = HAH
+			}
+			tabarestan_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TEM
+			}
+			iraq_e_ajam_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TEM
 			}
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
+			change_government = monastic_order_government
 		}
 		ai_will_do = {
 			factor = 400
