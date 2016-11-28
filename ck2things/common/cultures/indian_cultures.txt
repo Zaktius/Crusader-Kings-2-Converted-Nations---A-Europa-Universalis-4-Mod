@@ -1,6 +1,0 @@
-iranian = {
-	baloch = {
-		primary = PER
-		dynasty_names = { "Qalat" "Jiskani" "Kalmati" "Mugheri" "Nutkani" }
-	}
-}

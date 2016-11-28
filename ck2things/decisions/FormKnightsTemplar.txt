@@ -1,0 +1,79 @@
+country_decisions = {
+
+	bekt = {
+		major = yes
+		potential = {
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			religion_group = christian_group
+			OR = {
+				ai = no
+				AND = {
+					NOT = { exists = TEM }
+					any_owned_province = {
+						region = mashriq_region
+					}
+				}
+			}
+		}
+		allow = {
+			NOT = { exists = TEM }
+			is_nomad = no
+			is_subject = no
+			is_at_war = no
+			is_tribal = no
+			owns_core_province = 379			# Jerusalem
+		}
+		effect = {
+			change_tag = TEM
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 3650
+			}
+			set_capital = 379 # Jerusalem
+			if = {
+				limit = {
+					NOT = { primary_culture = hebrew }
+				}
+				change_primary_culture = hebrew
+			}
+			palestine_area = {
+				add_permanent_claim = TEM
+			}
+			syria_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TEM
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			change_government = monastic_order_government
+		}
+		ai_will_do = {
+			factor = 400
+		}
+	}
+}

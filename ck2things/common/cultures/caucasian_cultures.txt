@@ -1,4 +1,4 @@
-byzantine = {
+caucasian = {
 	alan = {
 		primary = GEO
 		dynasty_names = { "Zmbalani" "Sathisi" }

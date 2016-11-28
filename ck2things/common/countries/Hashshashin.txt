@@ -139,5 +139,9 @@ monarch_names = {
 	"Zakaria #0" = 0
 	"Zand #0" = 0
 	"Zia #0" = 0
+
+	"Shahira #0" = -1
+	"Yusra #0" = -1
+	"Asma #0" = -1
 }
 

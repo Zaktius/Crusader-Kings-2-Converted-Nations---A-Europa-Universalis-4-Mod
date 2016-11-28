@@ -5,6 +5,6 @@ iranian = {
 	}
 	tocharian = {
 		primary = KAS
-		dynasty_names = { "Bharuka" "Arsi" "Kuci" "Urabo" "Krorän" "Turtam" "Jemotwona" "Narubho" "Kasid" }
+		dynasty_names = { "Bharuka" "Arsi" "Kuci" "Urabo" "Krorän" "Turtam" "Jemotwona" "Narubho" "Jiaohe" }
 	}
 }

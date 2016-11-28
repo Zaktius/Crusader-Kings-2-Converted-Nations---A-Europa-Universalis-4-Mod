@@ -155,5 +155,14 @@ monarch_names = {
 	"Yngvar #0" = 0
 	"Örvar #0" = 0
 	"Öysteinn #0" = 0
+
+	"Gunhilda #0" = -1
+	"Aelfgifu #0" = -1
+	"Gyda #0" = -1
+	"Estrid #0" = -1
+	"Aud #0" = -1
+	"Asa #0" = -1
+	"Tyra #0" = -1
+	"Tove #0" = -1
 }
 

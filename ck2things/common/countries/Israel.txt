@@ -1,12 +1,10 @@
-﻿#Israel
-
-graphical_culture = muslimgfx
+# Israel
+graphical_culture = easterngfx
 color = { 20 138 255 }
 
 
 army_names = {
 	"Army of $PROVINCE$"
-	"Heirs of bar Kokhba"
 }
 
 leader_names = {
@@ -54,12 +52,17 @@ monarch_names = {
 	"Giza #0" = 0
 	"Baruch #0" = 0
 	"Aharon #0" = 0
+
+	"Rebekkaa #0" = -1
+	"Rahel #0" = -1
+	"Batia #0" = -1
+	"Malka #0" = -1
+	"Liat #0" = -1
+	"Ziva #0" = -1
 }
 ship_names = {
 	Achai Achunai Aharon Alechsandri Ammi Chananel Chaninai Chanoch Chaim Chayim Chelbo Chisdai Chiyya Chizkiyah Chofni Chushiel
-	Daniel David Dimi Dodai Dudai Efrayim Eina Elazar Elchanan Leah Rachel Rava Ravai Ravi Ravya Reuven Rivai Rivka Saadiah Sarah 
-	Sechok Shabsai Shalom Shanoi Shemaryah Sherira Sheshna Shila Shimon Shinoi 
-	Shlomo Shmuel Sorgo Sulam Yisrael Yitzchak Yoel Yosef Yoshiah Yosi Yuda Zakkai Zelekman Zuiskind Jerusalem "Bēt Laḥm" Yerushaláyim 
-	Acre Ashdod Beit Shemesh Haifa Nazareth Tira
+	Daniel David Dimi Dodai Dudai Efrayim Eina Elazar Elchanan Rava Ravai Ravi Ravya Reuven Rivai Saadiah Sechok Shabsai Shalom Shanoi Shemaryah Sherira Sheshna Shila Shimon Shinoi 
+	Shlomo Shmuel Sorgo Sulam Yisrael Yitzchak Yoel Yosef Yoshiah Yosi Yuda Zakkai Zelekman Zuiskind Jerusalem "Bēt Laḥm" Yerushaláyim Acre Ashdod Beit Shemesh Haifa Nazareth Tira
 }
 

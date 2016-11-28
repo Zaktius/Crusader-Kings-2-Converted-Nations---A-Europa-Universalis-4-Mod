@@ -45,6 +45,13 @@ monarch_names = {
 	"Maria #1" = -5
 	"Guy #1" = 5
 	"Hugues #1" = 5
+
+	"Morphia #0" = -1
+	"Ioveta #0" = -1
+	"Melisende #0" = -1
+	"Adrienne #0" = -1
+	"Diane #0" = -1
+
 }
 
 ship_names = {

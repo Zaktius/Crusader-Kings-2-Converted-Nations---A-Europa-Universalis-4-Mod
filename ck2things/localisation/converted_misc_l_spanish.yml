@@ -3,6 +3,8 @@
  JOM_ADJ: "Jomsvikinga"
  HAH: "Asesinos"
  HAH_ADJ: "Asesina"
+ ROM: "Imperio Romano"
+ ROM_ADJ: "Romana"
  west_african_pagan_reformed_rebels_demand: "Convertir $COUNTRYNAME$"
  west_african_pagan_reformed_demand_desc: "Los rebeldes luchan por la religión $RELIGION$. Ellos piden que reconozcamos su supremacía o que al menos dejemos de intentar convertirlos y les dejemos rendir culto en paz."
  west_african_pagan_reformed_rebels_title: "Religiosos"

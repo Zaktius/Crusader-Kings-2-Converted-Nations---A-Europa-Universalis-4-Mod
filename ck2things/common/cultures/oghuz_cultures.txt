@@ -20,7 +20,7 @@ oghuz = {
 		dynasty_names = { "Ashina" "Bukhal" "Karadakhu" "Yabghumakh" }
 	}
 	karluk = {
-		primary = BUK
+		primary = UZB
 		dynasty_names = { "Farghanad" "Karlukid" }
 	}
 }

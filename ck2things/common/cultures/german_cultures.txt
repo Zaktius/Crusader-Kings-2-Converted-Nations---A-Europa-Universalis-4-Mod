@@ -11,10 +11,6 @@ germanic = {
 		primary = POR
 		dynasty_names = { }
 	}
-	old_saxon = {
-		primary = GER
-		dynasty_names = { "Theodericing" "Richfriding" "Abonid" "Smeldiging" "Unwanid" "Hessing" }
-	}
 	frisian = {
 		primary = NED
 		dynasty_names = { "Folcwalding" }
