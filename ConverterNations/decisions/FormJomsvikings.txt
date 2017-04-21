@@ -4,6 +4,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			is_colonial_nation = no
+			NOT = { has_country_flag = formed_jomsvikings_flag }
 			OR = {
 				is_former_colonial_nation = no
 				AND = {
@@ -68,13 +69,14 @@ country_decisions = {
 				add_permanent_claim = JOM
 			}
 			change_government = monastic_order_government
+			set_country_flag = formed_jomsvikings_flag
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 		}
 		ai_will_do = {
-			factor = 400
+			factor = 1
 		}
 	}
 }
