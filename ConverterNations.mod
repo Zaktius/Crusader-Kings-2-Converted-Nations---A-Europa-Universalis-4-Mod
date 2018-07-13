@@ -5,4 +5,4 @@ tags={
 	"national ideas"
 }
 picture="logo.png"
-supported_version="1.20.*.*"
+supported_version="1.25.*.*"
