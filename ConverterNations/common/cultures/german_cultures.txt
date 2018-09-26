@@ -15,4 +15,8 @@ germanic = {
 		primary = NED
 		dynasty_names = { "Folcwalding" }
 	}
+	old_lombard = {
+		primary = ITA
+		dynast_names = §old_lombard§
+	}
 }

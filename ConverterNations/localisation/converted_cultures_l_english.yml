@@ -1,6 +1,7 @@
 ﻿l_english:
  norse: "Norse"
  german: "German"
+ old_lombard: "Lombard"
  frankish: "Frankish"
  suebi: "Suebi"
  anglo_saxon: "Anglo-Saxon"
@@ -8,6 +9,7 @@
  italian: "Italian"
  visigothic: "Visigothic"
  alan: "Alan"
+ assyrian: "Assyrian"
  pictish: "Pictish"
  komi: "Komi"
  khanty: "Khanty"
@@ -28,5 +30,7 @@
  tocharian: "Tocharian"
  ashkenazi: "Ashkenazi"
  sephardi: "Sephardi"
+ tangut: "Tangut"
+ zhangzhung: "Zhangzhung"
+ sumpa: "Sumpa"
  equine: "Horse"
- 

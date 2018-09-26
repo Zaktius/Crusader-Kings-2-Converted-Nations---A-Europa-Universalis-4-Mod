@@ -1,6 +1,6 @@
 iberian = {
 	visigothic = {
 		primary = CAS
-		dynasty_names = { "de Cantabria" "de Prauia" "d'Oriola" "Theodoricciana" "de Suebennia" "de Ruscino" "Begonid" "de Noreña" "de Viana do Castelo" "de San Pedro de Périx" "de Castrobarte" "de Puigcerdà" "d'Ain Ben Amar" }
+		dynasty_names = { "de Cantabria" "de Prauia" "d'Oriola" "Theodoricciana" "de Suebennia" "de Ruscino" "Begonid" "de Noreña" "de Viana do Castelo" "de San Pedro de Périx" "de Castrobarte" "de Puigcerdà" "d'Ain Ben Amar" "de Braga" "de Chaves" "de Benavente" "d'Osma" "de Xauen" "de Mulay Buselham" }
 	}
 }

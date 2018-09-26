@@ -68,7 +68,8 @@ country_decisions = {
 				}
 				add_permanent_claim = JOM
 			}
-			change_government = monastic_order_government
+			change_government = theocracy
+			set_legacy_government = monastic_order_government
 			set_country_flag = formed_jomsvikings_flag
 			if = {
 				limit = { has_custom_ideas = no }

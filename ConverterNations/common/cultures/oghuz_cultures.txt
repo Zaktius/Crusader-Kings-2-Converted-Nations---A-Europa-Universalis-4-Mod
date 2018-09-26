@@ -21,6 +21,6 @@ oghuz = {
 	}
 	karluk = {
 		primary = UZB
-		dynasty_names = { "Farghanad" "Karlukid" }
+		dynasty_names = { "Zhetysu" "Farghanad" "Karlukid" }
 	}
 }

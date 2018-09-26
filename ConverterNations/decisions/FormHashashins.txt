@@ -84,7 +84,8 @@ country_decisions = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
-			change_government = monastic_order_government
+			change_government = theocracy
+			set_legacy_government = monastic_order_government
 		}
 		ai_will_do = {
 			factor = 1
