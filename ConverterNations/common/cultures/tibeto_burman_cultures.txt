@@ -5,7 +5,7 @@ burman = {
 	}
 	zhangzhung = {
 		primary = GUG
-		dynasty_names = { "Lig" "Phug" "Pung" "Brusha" "Nganlam" "Meu" }
+		dynasty_names = { "Lig" "Phug" "Pung" "Brusha" "Nganlam" "Dro" }
 	}
 	sumpa = {
 		primary = TIB

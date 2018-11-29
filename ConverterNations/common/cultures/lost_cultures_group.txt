@@ -12,4 +12,32 @@ lost_cultures_group = {
 			Glitterhoof Sparklemane Moontail Opaleye Silvercoat Goldmuzzle 
 		}
 	}
+	cat = {
+		primary = TRL
+		dynasty_names = { }
+	}
+	bear = {
+		primary = TRL
+		dynasty_names = { }
+	}
+	hedgehog_culture = {
+		primary = TRL
+		dynasty_names = { }
+	}
+	duck_culture = {
+		primary = TRL
+		dynasty_names = { }
+	}
+	dog_culture = {
+		primary = TRL
+		dynasty_names = { }
+	}
+	elephant_culture = {
+		primary = TRL
+		dynasty_names = { }
+	}
+	dragon_culture = {
+		primary = TRL
+		dynasty_names = { }
+	}
 }

@@ -1,15 +1,15 @@
 oghuz = {
 	pecheneg = {
 		primary = KAZ
-		dynasty_names = { "Haravoi" "Havuksingila" }
+		dynasty_names = { "Haravoi" "Havuksingila" "Uraçic" "Bülärid" "Yänäyid" "Kani-Kara" }
 	}
 	cuman = {
 		primary = KAZ
-		dynasty_names = { "Kimak" "Andjogli" "Kipchaki" }
+		dynasty_names = { "Kimak" "Andjogli" "Kipchaki" "Ishim" "Talas" "Ili" }
 	}
 	bolghar = {
 		primary = KAZ
-		dynasty_names = { "Dulo" "Ezgil" "Bilar" "Baskatir" "Ukil" }
+		dynasty_names = { "Dulo" "Ezgil" "Bilar" "Baskatir" "Ukil" "Pitesti" "Boyan" }
 	}
 	avar = {
 		primary = KAZ
@@ -21,6 +21,6 @@ oghuz = {
 	}
 	karluk = {
 		primary = UZB
-		dynasty_names = { "Zhetysu" "Farghanad" "Karlukid" }
+		dynasty_names = { "Farghanad" "Karlukid" }
 	}
 }

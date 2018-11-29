@@ -5,14 +5,22 @@ east_slavic = {
 	}
 	volhynian = {
 		primary = KIE
-		dynasty_names = { "Tyvercy" "Turov" }
+		dynasty_names = { "Tyvercy" "Turov" "Tivertsi" "Halyc" "Pripyatich" "Peremich" "Ulich" "Olon" }
 	}
 	severian = {
 		primary = KIE
-		dynasty_names = { "Radimich" "Seversky" }
+		dynasty_names = { "Radimich" }
 	}
 	russian_culture = {
 		primary = RUS
 		dynasty_names = { "Dregovich" "Vyatich" }
+	}
+	carantanian = {
+		primary = SLO
+		dynasty_names = { "Carantania" "Pribic" "Ivkovic" "Preradic" }
+	}
+	bosnian = {
+		primary = BOS
+		dynasty_names = { }
 	}
 }

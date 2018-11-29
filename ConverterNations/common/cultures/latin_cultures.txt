@@ -1,10 +1,18 @@
 latin = {
 	italian = {
 		primary = ITA
-		dynasty_names = { "di Capua" "Oristani" "Sorrenti" "Galbaio" "di Pitigliano" "di Tusculum" "di Tivoli" "di Pallestrina" "Boi" }
+		dynasty_names = { "di Capua" "Oristani" "Sorrenti" "Galbaio" "di Pitigliano" "di Tusculum" "di Tivoli" "di Pallestrina" "di Gabicce" "di Montevarchi" "di Albenga" "Delfino" }
 	}
 	roman = {
 		primary = ITA
+		dynasty_names = { }
+	}
+	dalmatian = {
+		primary = ITA
+		dynasty_names = { "Palmotta" "diCavtat" }
+	}
+	outremer = {
+		primary = KOJ
 		dynasty_names = { }
 	}
 }
