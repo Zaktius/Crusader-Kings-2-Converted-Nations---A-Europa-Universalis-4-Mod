@@ -6,4 +6,3 @@ tags={
 }
 name="Formable Converter Nations"
 supported_version="1.29.3"
-path="mod/ConverterNations"

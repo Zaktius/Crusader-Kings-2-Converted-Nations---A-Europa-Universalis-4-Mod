@@ -1,11 +1,11 @@
 iranian = {
 	sogdian = {
 		primary = KHO
-		dynasty_names = { "Chaghan" "Khuda" "Afshin" "Vijaya" "Kasyar" "Sarikol" "Qiepantuo" "Wakhanshah" "Muqannid" "Wardana" "Al-Barm" "Aspandhatid" "Oshid" "Vandakid" "Tishvandakid" "Fatmiwaid" }
+		dynasty_names = { "Chaghan" "Khuda" "Afshin" "Vijaya" "Kasyar" "Sarikol" "Qiepantuo" "Wakhanshah" "Muqannid" "Wardana" "Al-Barm" "tegin" "Oshid" "Ramti" "Takhsi" "Nijatid" }
 	}
 	tocharian = {
 		primary = KAS
-		dynasty_names = { "Bharuka" "Arsi" "Kuci" "Urabo" "Krorän" "Turtam" "Jemotwona" "Narubho" "Anktsasid" }
+		dynasty_names = { "Bharuka" "Arsi" "Kuci" "Urabo" "Krorän" "Turtam" "Jemotwona" "Narubho" "Jiaohe" }
 	}
 	saka = {
 		primary = KAS

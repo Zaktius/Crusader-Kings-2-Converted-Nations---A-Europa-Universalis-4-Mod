@@ -1,7 +1,7 @@
 germanic = {
 	german = {
 		primary = GER
-		dynasty_names = { "von Thüringen" "Welf" "Udonen" "Etichonen" "Ludolfinger" "Hunfriding" "Babenberger" "Unruochinger" "Geroldonen" "Sieghardinger" "Agilolfing" "Berthilding" "Hardrading" "Anniona" "Fagana" "Hahilinga" "Huosi" "von Linz" "Krems" "von Calw" "von Glurns" "von Zollern" "von Asperg" "von Henneberg" "von Andechs" "von Waging" "von Pongau" "von Rotenburg" }
+		dynasty_names = { "von Thüringen" "Welf" "Udonen" "Etichonen" "Liudolfinger" "Hunfriding" "Babenberger" "Unruochinger" "Geroldonen" "Sieghardinger" "Agilolfing" "Berthilding" "Hardrading" "Anniona" "Fagana" "Hahilinga" "Huosi" "von Linz" "Krems" "von Calw" "von Glurns" "von Zollern" "von Asperg" "von Henneberg" "von Andechs" "von Waging" "von Pongau" "von Rotenburg" }
 	}
 	frankish = {
 		primary = FRA

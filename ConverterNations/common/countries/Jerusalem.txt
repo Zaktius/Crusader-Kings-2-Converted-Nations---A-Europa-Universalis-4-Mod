@@ -1,0 +1,133 @@
+# Jerusalem
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 202 202 190 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	economic_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+
+
+leader_names = {
+
+	"Shabib" "Al-Hasan" "Homayd" "Sa'id" "Ali" "Abdallah" "Muhammad" "Qahtaba" "Abdul-Azeem" "Abdul-Hamid" 
+	"Abdul-Lateef" "Abdul-Razzaq" "Abdul-Wahad" "Abdullah" "Adhid" "Adil" "Akab" "Ala'i" "Amir" "Ashraf" 
+	"Aziz" "Bashar" "Boutros" "Da'ud" "Faisal" "Fayiz" "Ghazi" "Hakam" "Hamdan" "Hashmaddin" 
+	"Hussayn" "Ibrahim" "Imamaddin" "Isa" "Is'mail" "Ismat" "Jahan" "Jamil" "Kamran" "Khalid" 
+	"Khudayar" "Majid" "Mas'ud" "Muaddam" "Muhsin" "Mukhtar" "Murad" "Musa" "Muzaffar" "Muzaffaraddin" 
+	"Nasraddin" "Nuraddin" "Nuri" "Radhi" "Rasul" "Sa'ud" "Salahaddin" "Seyfullah" "Sharaf" "Sirhan" 
+	"Taimur" "Tawfiq" "Umaya" "Wahid" "Yahya" "Ya'qub" "Yasar" "Youkhanna" "Zahir" }
+monarch_names = {
+	"Shabib #1" = 18
+	"Al-Hasan #1" = 18
+	"Homayd #0" = 1
+	"Sa'id #0" = 1
+	"Ali #0" = 1
+	"Abdallah #0" = 1
+	"Muhammad #0" = 1
+	"Qahtaba #1" = 18
+	"Abdul-Azeem #0" = 0
+	"Abdul-Hamid #0" = 0
+	"Abdul-Lateef #0" = 0
+	"Abdul-Razzaq #0" = 0
+	"Abdul-Wahad #0" = 0
+	"Abdullah #0" = 0
+	"Adhid #0" = 0
+	"Adil #0" = 0
+	"Akab #0" = 0
+	"Ala'i #0" = 0
+	"Amir #0" = 0
+	"Ashraf #0" = 0
+	"Aziz #0" = 0
+	"Bashar #0" = 0
+	"Boutros #0" = 0
+	"Da'ud #0" = 0
+	"Faisal #0" = 0
+	"Fayiz #0" = 0
+	"Ghazi #0" = 0
+	"Hakam #0" = 0
+	"Hamdan #0" = 0
+	"Hashmaddin #0" = 0
+	"Hussayn #0" = 0
+	"Ibrahim #0" = 0
+	"Imamaddin #0" = 0
+	"Isa #0" = 0
+	"Is'mail #0" = 0
+	"Ismat #0" = 0
+	"Jahan #0" = 0
+	"Jamil #0" = 0
+	"Kamran #0" = 0
+	"Khalid #0" = 0
+	"Khudayar #0" = 0
+	"Majid #0" = 0
+	"Mas'ud #0" = 0
+	"Muaddam #0" = 0
+	"Muhsin #0" = 0
+	"Mukhtar #0" = 0
+	"Murad #0" = 0
+	"Musa #0" = 0
+	"Muzaffar #0" = 0
+	"Muzaffaraddin #0" = 0
+	"Nasraddin #0" = 0
+	"Nuraddin #0" = 0
+	"Nuri #0" = 0
+	"Radhi #0" = 0
+	"Rasul #0" = 0
+	"Sa'ud #0" = 0
+	"Salahaddin #0" = 0
+	"Seyfullah #0" = 0
+	"Sharaf #0" = 0
+	"Sirhan #0" = 0
+	"Taimur #0" = 0
+	"Tawfiq #0" = 0
+	"Umaya #0" = 0
+	"Wahid #0" = 0
+	"Yahya #0" = 0
+	"Ya'qub #0" = 0
+	"Yasar #0" = 0
+	"Youkhanna #0" = 0
+	"Zahir #0" = 0
+
+
+	"Rafiqa #0" = -1
+	"Paymaneh #0" = -1
+	"Shahzadah #0" = -1
+	"Simin #0" = -1
+	"Souzan #0" = -1
+}
+ship_names = {
+	Arif
+	Azmi
+	Dervish
+	Fuad
+	Haci
+	Haydar
+	Mulish
+	Nuri
+	Salih
+	Said
+	Sefveti
+	Shukri
+}
+

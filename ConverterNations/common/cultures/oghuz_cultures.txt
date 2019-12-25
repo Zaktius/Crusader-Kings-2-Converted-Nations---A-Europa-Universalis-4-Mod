@@ -9,7 +9,7 @@ oghuz = {
 	}
 	bolghar = {
 		primary = KAZ
-		dynasty_names = { "Dulo" "Ezgil" "Bilar" "Baskatir" "Ukil" "Pitesti" "Boyan" }
+		dynasty_names = { "Dulo" "Ezgil" "Bilar" "Baskatir" "Ukil" "Bezmerid" "Telecid" }
 	}
 	avar = {
 		primary = KAZ

@@ -9,6 +9,6 @@ caucasian = {
 	}
 	coptic = {
 		primary = EGY
-		dynasty_names = { "Bashmur" "en Burah" }
+		dynasty_names = { "Bashmur" "en Isma'illa" "en Burah" }
 	}
 }
